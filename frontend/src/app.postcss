@@ -1,0 +1,60 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+	@apply w-full h-20 bg-black text-white flex justify-center items-center;
+}
+
+h1 {
+	@apply text-2xl font-sans font-bold;
+}
+
+h2 {
+	@apply text-2xl font-sans font-bold;
+}
+
+h3 {
+	@apply font-bold;
+}
+
+button {
+	@apply border rounded border-black p-2 text-lg font-bold hover:bg-gray-300 hover:scale-105 transition-all duration-300;
+}
+
+.headline {
+	@apply w-full text-center mt-5 mb-5;
+}
+
+.loader {
+	@apply w-full flex justify-center;
+}
+
+.questlist {
+	@apply w-full flex flex-wrap justify-center sm:space-x-2;
+}
+
+.card {
+	@apply flex flex-col w-64 bg-gray-200 shadow-lg rounded-md border border-black text-black hover:scale-105 transition-all duration-300 cursor-pointer;
+}
+
+.card div {
+	@apply w-full break-words p-2 border-b border-black;
+}
+
+.card div:last-child {
+	@apply border-none;
+}
+
+.card-body {
+	@apply h-full text-sm;
+}
+
+.card-footer {
+	@apply text-sm;
+}
+
+.controls {
+	@apply mt-5 flex justify-center;
+}

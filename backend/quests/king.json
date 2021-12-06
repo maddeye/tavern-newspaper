@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Come see the King",
+    "description": "Get your quest from the King",
+    "city": 0,
+    "escalation": 0,
+    "reward": "2 Gold"
+  },
+  {
+    "title": "The King demands you to come!",
+    "description": "The King demands you to come!",
+    "city": 2,
+    "escalation": 2,
+    "reward": "10 Gold"
+  },
+  {
+    "title": "The King is dead, all hail the King!",
+    "description": "Come and see the new King!",
+    "city": 3,
+    "escalation": 4,
+    "reward": "100 Gold"
+  }
+]

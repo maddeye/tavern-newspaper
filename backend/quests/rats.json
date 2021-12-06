@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Rat's aint a problem",
+    "description": "Kill rats in my cellar",
+    "city": 0,
+    "escalation": 0,
+    "reward": "2 Gold"
+  },
+  {
+    "title": "Rat's are a problem",
+    "description": "Kill rats in my cellar! Important!",
+    "city": 0,
+    "escalation": 2,
+    "reward": "5 Gold"
+  },
+  {
+    "title": "Well that escalated quickly",
+    "description": "There are so many rats. SOOO many!",
+    "city": 0,
+    "escalation": 4,
+    "reward": "10 Gold"
+  },
+  {
+    "title": "All hail the Rat King!",
+    "description": "You will never kill my new king!",
+    "city": 2,
+    "escalation": 6,
+    "reward": "50 Gold"
+  }
+]
